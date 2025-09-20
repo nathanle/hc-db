@@ -1,0 +1,11 @@
+[package]
+name = "hc-db"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+native-tls = "0.2.14"
+openssl = "0.10.73"
+postgres = "0.19.10"
+postgres-native-tls = "0.5.1"
+postgres-openssl = "0.5.1"
